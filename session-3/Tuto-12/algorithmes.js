@@ -8,7 +8,8 @@ let positionMin = 0;
 
 for (let i = 1; i < nombres.length; i++) { 
    if (nombres[i] > maximum) {
-       maximum = nombres[i]; positionMax = i;
+       maximum = nombres[i];
+        positionMax = i;
    }
 
 
