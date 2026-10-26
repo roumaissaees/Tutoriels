@@ -1,0 +1,134 @@
+
+.banniere-accueil {
+    padding: 96px 24px;
+    text-align: center;
+    background: #ffffff;
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+.banniere-accueil h1 {
+    max-width: 850px;
+    margin: 0 auto;
+    color: #0a2042;
+    font-family: Georgia, serif;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1.15;
+}
+
+.banniere-accueil h1 span {
+    color: #2673e8;
+}
+
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 24px auto 0;
+    color: #6b7280;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.actions-banniere {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.filtre-categories {
+    margin: 64px 24px;
+    text-align: center;
+}
+
+.filtre-categories h2 {
+    margin: 0 0 20px;
+    color: #111827;
+    font-size: 18px;
+}
+
+.liste-filtres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.liste-filtres .pilule-filtre {
+    margin: 0;
+}
+
+.section-articles {
+    padding: 80px 24px;
+}
+
+.conteneur-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.entete-liste-articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.entete-liste-articles h2 {
+    margin: 0;
+    color: #111827;
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+.entete-liste-articles p {
+    margin: 8px 0 0;
+    color: #6b7280;
+}
+
+.lien-voir-tout {
+    color: #2673e8;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.grille-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.grille-articles .carte-article {
+    min-width: 0;
+}
+
+@media (max-width: 768px) {
+    .barre-navigation {
+        flex-wrap: wrap;
+    }
+
+    .liens-navigation {
+        flex-wrap: wrap;
+    }
+
+    .banniere-accueil h1 {
+        font-size: 36px;
+    }
+
+    .entete-liste-articles {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .grille-articles {
+        flex-direction: column;
+    }
+
+    .conteneur-pied-de-page {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
