@@ -7,3 +7,22 @@
 .carte-contenu {
     padding: 30px;
 }
+/* css/components.css */
+.carte-contenu {
+    padding: 20px;
+}
+/* css/components.css */
+.carte-article {
+    /* ... (règles précédentes de fond et bordure) ... */
+    margin-bottom: 24px;
+}/* css/components.css */
+.carte-contenu h3 {
+    margin: 0; /* Enlève la marge par défaut du titre */
+}
+
+.carte-contenu p {
+    margin: 12px 0; /* 12px en haut et en bas, 0 à gauche et à droite */
+}
+.section-articles {
+    padding: 80px 24px;
+}
