@@ -8,7 +8,7 @@
 </head>
 
 <body>
-
+  
     <h1><?= htmlspecialchars($titre) ?></h1>
 
     <p><?= htmlspecialchars($contenu) ?></p>

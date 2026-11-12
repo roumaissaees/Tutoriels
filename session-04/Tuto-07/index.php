@@ -1,5 +1,4 @@
 <?php
-
 $articles = [
     [
         'id' => 1,
@@ -21,6 +20,4 @@ $articles = [
     ]
 ];
 
-echo "Article 1 : " . $articles[0]['titre'] . " (" . $articles[0]['categorie_libelle'] . ")<br>";
-
-echo "Article 2 : " . $articles[1]['titre'] . " (" . $articles[1]['categorie_libelle'] . ")";
+require 'index-template.php';

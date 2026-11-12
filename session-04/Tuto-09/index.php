@@ -19,12 +19,23 @@ $articles = [
         'categorie_couleur' => 'rose'
     ]
 ];
-
 $categories = [
-    ['id' => 1, 'libelle' => 'Développement'],
-    ['id' => 2, 'libelle' => 'Design UI/UX']
+    ['id' => 1,
+     'libelle' => 'Développement'
+    ],
+    
+    [
+        'id' => 2,
+        'libelle' => 'Design UI/UX'
+    ],
+    [
+        'id' => 3,
+        'libelle' => 'Productivité'
+    ],
+    [
+        'id' => 4,
+        'libelle' => 'Management'
+    ]
 ];
-require 'index-template.php';
-
 
 require 'index-template.php';
