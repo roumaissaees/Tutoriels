@@ -1,8 +1,4 @@
 javascript
-// ==============================================================
-// Livrable : Exercices sur les fonctions
-// Emplacement : algo/fonctions/exercices-fonctions/fonctions.js
-// ==============================================================
 
 // 1. Fonction de calcul
 function calculerSurface(longueur, largeur) {
@@ -21,6 +17,4 @@ let grandePiece = estGrand(surfacePiece);
 console.log("Surface calculée : " + surfacePiece + " m²");
 console.log("Grande pièce : " + grandePiece);
 
-// --- Bilan personnel ---
-// Une fonction de calcul renvoie une valeur numérique transformée.
-// Une fonction de décision teste une règle et renvoie true ou false.
+
